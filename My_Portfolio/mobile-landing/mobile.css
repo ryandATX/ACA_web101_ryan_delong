@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }@media (min-width: 600px) {
+    .body {
+      color: blue;
+    }
+  }
